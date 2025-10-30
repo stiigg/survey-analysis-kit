@@ -1,0 +1,1 @@
+03_consulting_comm_pack source folder not found at build time.
