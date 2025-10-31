@@ -1,0 +1,6 @@
+region,gender,Q1,Q2,email
+North,F,5,4,alice@example.com
+South,M,3,2,bob@example.com
+East,F,4,5,charlie@example.org
+West,F,2,3,
+North,M,5,5,
