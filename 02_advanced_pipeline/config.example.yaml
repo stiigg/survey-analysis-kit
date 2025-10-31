@@ -1,0 +1,16 @@
+version: v1
+
+data:
+  input_csv: sample_data.csv
+
+outputs:
+  dir: outputs
+
+metrics:
+  top_box_threshold: 4
+  groupby:
+    - region
+    - gender
+
+governance:
+  retention_days: 365
