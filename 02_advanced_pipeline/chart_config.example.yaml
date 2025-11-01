@@ -1,0 +1,11 @@
+name: client_brand_default
+fonts:
+  base: "Lato"
+  title_size: 18
+  label_size: 12
+palette:
+  primary: "#1B998B"
+  secondary: "#ED217C"
+  tertiary: "#2D3047"
+background: "#FFFFFF"
+logo_path: "assets/logo.png"
