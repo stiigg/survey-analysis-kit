@@ -11,3 +11,11 @@ Usage:
 - Install requirements where present
 - Place your raw CSV at data/raw_survey.csv (or update brand_config.yaml)
 - Run the notebook or `src/generate_report*.py` scripts
+
+## What's new
+
+- Automated schema-driven validation with audit trails (`surveykit.validate_data`).
+- Configurable chart generation and validation with staleness detection (`surveykit.validate_charts`).
+- Executive summary generation and collaborative review utilities (`surveykit.summary_writer`, `tools/summary_review_app.py`).
+- Brandable chart theming via YAML configuration (`surveykit.chart_style`).
+- Additional analytics helpers for reliability tests, bias scans, and effect sizes (`surveykit.analytics`).
